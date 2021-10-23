@@ -46,5 +46,5 @@
 		</plugins>
 		<finalName>javaexpress-springboot-docker</finalName>
 	</build>
-	
+
 </project>
