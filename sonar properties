@@ -1,0 +1,5 @@
+        stage('SonarQube Analysis') {
+            steps {
+               sh '${scannerHome}/opt/sonar-scanner/bin/sonar-scanner -e -Dsonar.host.url=http://65.0.17.86:9000/ -Dsonar.projectKey=springbootsample -Dsonar.sources=. -Dsonar.login=4e92bc73b97d810b077211028547ed4392c5b0c0'
+            }
+        }
